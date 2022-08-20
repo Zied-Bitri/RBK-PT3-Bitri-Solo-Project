@@ -20,6 +20,7 @@ return game;
 }
 
 var motus = function(playerTry){
+	var timer = Set
 
 	this.recall.splice(0, 1, this.guessWord[0])
 	
