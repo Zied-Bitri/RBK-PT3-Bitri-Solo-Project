@@ -4,9 +4,21 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>MOTUS Game</title>
+		<link rel="stylesheet" type="text/css" href="./style.css">
 	</head>
 	<body>
-		<div>Play Game</div>
+		<h1>Please, write a word of 7 letters, then push <em>SUBMIT</em></h1>
+		<div class="start_menu">
+			<img id="wallpaper_motus" src="./images/motus2.jpg" alt="Photo of motus game" width="600" height="500">
+		</div>
+		<input type="text" id="playerTry">
+		<div class="play_button">
+			<button class="start" onclick="start_Game()">START</button>
+			<button class="play" onclick="play_Game(document.getElementById('playerTry').value">SUBMIT</button>
+		</div>
+		<script type="text/javascript" src="./motus-game.js"></script>
+
+		
 	
 	</body>
 	</html>

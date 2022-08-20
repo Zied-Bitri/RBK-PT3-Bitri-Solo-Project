@@ -6,6 +6,18 @@
 * Each player got 5 attempts to guess the word.
 */
 
+function start_Game() {
+	var newGame = PlayMotus();
+	return newGame;
+	
+}
+
+
+function play_Game(playerTry) {
+	return newGame.motus(playerTry);
+}
+
+
 function PlayMotus(){
 var words = ['academy', 'century', 'economy', 'fashion', 'freedom', 
 	'mystery', 'revenue', 'totally', 'upscale', 'weekend'];

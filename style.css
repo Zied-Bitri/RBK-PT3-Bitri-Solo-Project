@@ -1,0 +1,95 @@
+.start_menu {
+  background-color: darkred;    
+  text-align: center;
+  padding: 50px 50px;
+}
+
+#wallpaper_motus {
+	width:100%;
+	height:auto;
+}
+
+.start {
+  display: inline-block;
+  padding: 25px 40px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position: absolute;
+  top: 43%;
+  left: 67%;
+}
+
+.start:hover {background-color: #3e8e41}
+
+.start:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#playerTry {
+  display: inline-block;
+  padding: 25px 40px;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #fff;
+  border: none;
+  border-radius: 50px;
+  position: absolute;
+  top: 65%;
+  left: 55%;
+}
+h1 {
+	display: inline-block;
+	font-size: 40px;
+  padding: 25px 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 47%;
+
+}
+
+em {
+	color: #fff;
+	background-color: green;
+}
+
+.play {
+  display: inline-block;
+  padding: 25px 40px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: green;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position: absolute;
+  top: 80%;
+  left: 67%;
+}
+
+.play:hover {background-color: #3e8e41}
+
+.play:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
