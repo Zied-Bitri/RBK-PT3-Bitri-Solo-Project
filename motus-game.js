@@ -6,15 +6,24 @@
 * Each player got 5 attempts to guess the word.
 */
 
+var newGame = {};
+
 function start_Game() {
-	var newGame = PlayMotus();
+	newGame = PlayMotus();
 	return newGame;
-	
 }
 
 
-function play_Game(playerTry) {
-	return newGame.motus(playerTry);
+function display(obj){
+	return obj.guessWord[0]
+}
+
+function restart() {
+	newGame = {};
+}
+
+function play_Game() {
+	return newGame.motus(document.getElementById('playerTry10').value);
 }
 
 
@@ -32,7 +41,6 @@ return game;
 }
 
 var motus = function(playerTry){
-	var timer = Set
 
 	this.recall.splice(0, 1, this.guessWord[0])
 	
